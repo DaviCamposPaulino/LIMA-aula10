@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trips</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: white;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .pacotes {
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px;
+        }
+
+        .card {
+            background: white;
+            width: 125px;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px #ddd;
+        }
+
+        .card img {
+            width: 100%;
+            height: 115px;
+            object-fit: cover;
+        }
+
+        .card p {
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .preco {
+            color: gray;
+            font-size: 12px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h3>Trips</h3>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#pacotes">Pacotes</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <img class="banner"
+    src="https://st.depositphotos.com/1158226/2966/i/450/depositphotos_29664855-stock-photo-crystal-clear-mountain-lake-and.jpg"
+    alt="Paisagem com lago e montanhas">
+
+    <div class="pacotes" id="pacotes">
+
+        <div class="card">
+            <img src="https://magazine.zarpo.com.br/wp-content/uploads/2020/03/florianopolis_praia-armacao_zarpo.jpg" alt="praia Brasil">
+            <p><strong>Brasil</strong></p>
+            <p class="preco">R$ 5.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://uploads.dicaparis.com/sites/9/2024/07/Paris-Paisagem.jpg" alt="paris">
+            <p><strong>França</strong></p>
+            <p class="preco">R$ 15.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/2160748918/pt/foto/colorful-cliffside-houses-in-manarola-cinque-terre-italy.jpg?s=612x612&w=0&k=20&c=yL8lZ5ozauMpIPnjfM52IJfcaaYBSq9uvD4pUCTk0Fg=" alt="Itália">
+            <p><strong>Itália</strong></p>
+            <p class="preco">R$ 17.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://aventurasnahistoria.com.br/wp-content/uploads/feedsync/conheca-os-5-destinos-mais-encantadores-da-suica-141.jpg" alt="suiça">
+            <p><strong>Suíça</strong></p>
+            <p class="preco">R$ 20.000</p>
+        </div>
+
+    </div>
+
+    <footer id="contato">
+        © 2025 Trips - Todos os direitos reservados
+    </footer>
+
+</div>
+
+</body>
+</html>
